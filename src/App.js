@@ -7,7 +7,7 @@ import Col from "react-bootstrap/Col";
 import Dropzone from "react-dropzone";
 
 Archive.init({
-  workerUrl: "/libarchive.js/dist/worker-bundle.js",
+  workerUrl: "libarchive.js/dist/worker-bundle.js",
 });
 
 const read = (blob) => new Promise((resolve, reject) => {
